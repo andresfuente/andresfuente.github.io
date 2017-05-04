@@ -1,0 +1,96 @@
+html {
+    background-color: black;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+body{
+	background-color:#00000000;
+	display: block;
+    margin: 0 auto;
+}
+
+header{
+
+	border: 1px solid #555555;
+    background: black;
+
+	width: 375px;
+	color: white;
+	text-align: center;
+}
+
+header > p{
+	margin-top: 5px;
+}
+
+div{
+	color: white;
+}
+
+p{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+div.score{
+	float: left;
+	width: 33.3%;
+	height: 100%;
+	text-align: center;
+}
+
+div.blank{
+	float: left;
+	width: 33.3%;
+	height: 100%;
+	text-align: center;
+}
+
+div.highscore{
+	float: left;
+	width: 33.3%;
+	height: 100%;
+
+	text-align: center;
+}
+
+div.blank{
+	float: left;
+	width: 33.4%;
+	height: 100%;
+}
+
+div#scorewrapper {
+    background: black;
+    height: 40px;
+    width: 375px;
+    border-top: 1px solid #ffffff;
+    border-left: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;
+
+}
+
+
+div#game{
+    background: black;
+    width: 375px;
+    border-top: 1px solid #ffffff;
+    border-left: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+
+
+}
+
+
+
+div#fps{
+	color: white;
+
+}
+
+
